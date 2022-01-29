@@ -12,3 +12,24 @@ LinearModel<-lm(mpg ~ vehicle_length + vehicle_weight + spoiler_angle + ground_c
 LinearModel
 summary(LinearModel) #summarize linear model
 
+
+Suspension_Coils <- read.csv('Suspension_Coil.csv', check.names = F)
+Suspension_Coils
+
+total_summary <- Suspension_Coils %>%
+  summarize(Mean=mean(PSI),Median=median(PSI),Variance=var(PSI),SD=sd(PSI))
+total_summary
+
+lot_summary <- Suspension_Coils %>% group_by(Manufacturing_Lot) %>%
+  summarize(Mean=mean(PSI), Median=median(PSI),Variance=var(PSI),SD=sd(PSI),.groups='keep')
+
+lot_summary
+
+
+?t.test()    
+
+t.test(Suspension_Coils$PSI,mu=1500)
+t.test(subset(Suspension_Coils,Manufacturing_Lot=="Lot1")$PSI,mu=1500)
+t.test(subset(Suspension_Coils,Manufacturing_Lot=="Lot2")$PSI,mu=1500)
+t.test(subset(Suspension_Coils,Manufacturing_Lot=="Lot3")$PSI,mu=1500)
+
