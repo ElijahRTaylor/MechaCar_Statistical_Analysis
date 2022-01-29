@@ -2,6 +2,10 @@
 
 ## Linear Regression to Predict MPG
 
+
+
+
+
 Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
 The variables that provide a non-random amount of variange to the mpg values in the dataset are vehicle length and ground clearance.  When we run a linear regression model using these variables against MPG as a dependent variable, we get p values that indicate these factors have a non-random effect on the MPG for this vehicle.  Vehicle length had a p-value of 2.6 x 10^-12 and ground clearance had a p-value of 5.21 x 10^-8.  Both of these are greatly lower than our significance values.
