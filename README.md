@@ -28,9 +28,28 @@ When we perform our one sample t-test for the suspension coils for all of the ma
 
 When we breakdown and do T-Tests based on each lot number, we can make the following inferences.
 
-For Lot 1, the result of the  t-test shows us that they are not statistically different from the population mean.  The P-Value is 1.0 which is not enough for us to reject the null hypothesis.
+For Lot 1, the result of the  t-test shows us that they are not statistically different from the population mean.  The P-Value is 1.0 which is not low enough for us to reject the null hypothesis.
 
-For Lot 2, the result of the t-test shows us that the 
+For Lot 2, the result of the t-test shows us that they are not statistically different from the population mean.  The P-Value is 0.6072 which is not low enough for to reject the null hypothesis.
+
+For lot 3, the result of the t-tests shows us that suspension coils in lot 3 are statistically different from the population mean.  The P-Value is 0.04168 which is under .05 which is low enough for us to reject the null hypothesis.
+
+## Study Design: MechaCar Vs Competition 
+One of the biggest factors consumers factor in when deciding to buy a new car is cost.  In this study, we want to see how MechaCar compares to other car models.
+
+### Metric to Test
+We will compare the fuel efficiency of MechaCar in MPG to that of similar vehicle makes by their competitors.
+
+H0:MechaCar prototypes average fuel efficiency is similar to that of their competitors' vehicles
+Ha:MechaCar prototypes average fuel efficiency is statistically better or worse than that of their competitors' vehicles. 
+
+
+## Statistical Test Used
+The best statistical test would be the ANOVA test.  Since we are looking to see if there is a statisical difference between the distrubution means from multiple samples, this would be the best test for the job.
+
+## Data Required
+
+The main data we would need to gather would be data regarding the MPG for all of the MechaCars as well as the MPG for all of the competitors' vehicles.
 
 
 
