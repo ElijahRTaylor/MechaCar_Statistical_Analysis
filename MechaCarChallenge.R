@@ -13,6 +13,8 @@ LinearModel
 summary(LinearModel) #summarize linear model
 
 
+
+# Create summary statistics table for suspension coil PSI
 Suspension_Coils <- read.csv('Suspension_Coil.csv', check.names = F)
 Suspension_Coils
 
@@ -26,6 +28,8 @@ lot_summary <- Suspension_Coils %>% group_by(Manufacturing_Lot) %>%
 lot_summary
 
 
+
+#Perforned T-Test on suspension coils for each lot#
 ?t.test()    
 
 t.test(Suspension_Coils$PSI,mu=1500)
