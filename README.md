@@ -16,6 +16,10 @@ This model can be considered as effective at predicting MPG of the MechaCar prot
 ## Summary Statistics on Suspension Coils
 
 <img width="607" alt="Screen Shot 2022-02-01 at 12 09 31 AM" src="https://user-images.githubusercontent.com/87248687/151915794-1a44dc16-036e-48f3-8b95-14c86f141550.png">
+<img width="543" alt="Screen Shot 2022-02-01 at 12 39 42 AM" src="https://user-images.githubusercontent.com/87248687/151918343-07231747-92a5-4fbf-8711-1d90f1fb214f.png">
+<img width="421" alt="Screen Shot 2022-02-01 at 12 39 37 AM" src="https://user-images.githubusercontent.com/87248687/151918348-6a9d48c2-e756-4af1-bbb7-87e2489b72d5.png">
+
+
 
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch(psi). 
